@@ -59,3 +59,7 @@ Aplicación visual con interfaz gráfica (**Java Swing**) que gestiona una sala 
 
 ---
 
+## 👨‍💻 Autor
+* **Alan Villar** - [@alanvillar05](https://github.com/alanvillar05)
+* Estudiante de programación e innovación tecnologica.
+
