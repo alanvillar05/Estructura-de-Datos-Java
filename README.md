@@ -21,12 +21,12 @@ A continuación se detalla cada ejercicio implementado en el paquete `org.exampl
 * **Explicación simple:** Es como preparar una lista con la cantidad justa de casilleros para no desperdiciar papel y luego buscar con una regla cuál fue el número más alto.
 
 ### 🔹 Ejercicio 2: Contador de Aprobados y Desaprobados (`Ejercicio_2.java`)
-* **¿Qué hace?:** Carga un vector de notas y clasifica cuántos alumnos obtuvieron una nota $\ge 6$ y cuántos $< 6$.
+* **¿Qué hace?:** Carga un vector de notas y clasifica cuántos alumnos obtuvieron una nota > 6 y cuántos < 6
 * **Explicación simple:** Funciona como un filtro de aduana que cuenta cuántas personas pasan de largo con sello verde (aprobados) y cuántas van a revisión (desaprobados).
 
 ### 🔹 Ejercicio 3: Inventario con Vectores Paralelos (`Ejercicio_3.java`)
 * **¿Qué hace?:** Maneja dos vectores sincronizados por el mismo índice (uno de cantidades y otro de costos). Calcula el subtotal por producto, el total general y resalta aquellos que superan los $1000.
-* **Explicación simple:** Es el ticket de compra del supermercado: toma cantidad de paquetes $\times$ precio unitario y te avisa qué compras salieron más caras.
+* **Explicación simple:** Es el ticket de compra del supermercado: toma cantidad de paquetes precio unitario y te avisa qué compras salieron más caras.
 
 ### 🔹 Ejercicio 4: Registro de Salida de Transporte (`Ejercicio_4.java`)
 * **¿Qué hace?:** Modela mediante vectores paralelos el egreso de una flota de camiones (patente, chofer, hora y carga), contabilizando cuántos transportaron "té".
