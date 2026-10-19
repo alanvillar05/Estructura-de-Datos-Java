@@ -32,8 +32,12 @@ public class Ejercicio_7 {
             System.out.print("Ingrese edad: ");
             int edad = sc.nextInt();
 
-            System.out.print("Ingrese sexo ('F' o 'M'): ");
-            char sexo = sc.next().toUpperCase().charAt(0);
+            // Se valida el sexo para que total = varones + mujeres
+            char sexo;
+            do {
+                System.out.print("Ingrese sexo ('F' o 'M'): ");
+                sexo = sc.next().toUpperCase().charAt(0);
+            } while (sexo != 'F' && sexo != 'M');
 
             // 1. Contador global
             totalCensados++;
@@ -44,7 +48,7 @@ public class Ejercicio_7 {
                 if (edad >= 16 && edad <= 65) {
                     varonesEntre16y65++;
                 }
-            } else if (sexo == 'F') {
+            } else {
                 mujeres++;
             }
 
@@ -71,7 +75,7 @@ public class Ejercicio_7 {
             // Cálculo del porcentaje sobre el total de varones
             if (varones > 0) {
                 double porcentaje = ((double) varonesEntre16y65 / varones) * 100.0;
-                System.out.println("Porcentaje de varones entre 16 y 65 años: " + porcentaje + "%");
+                System.out.printf("Porcentaje de varones entre 16 y 65 años: %.2f%%%n", porcentaje);
             } else {
                 System.out.println("Porcentaje de varones entre 16 y 65 años: No se registraron varones.");
             }

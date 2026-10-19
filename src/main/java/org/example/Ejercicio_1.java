@@ -1,3 +1,5 @@
+package org.example;
+
 import java.util.Scanner;
 
 public class Ejercicio_1 {
@@ -5,8 +7,12 @@ public class Ejercicio_1 {
         Scanner sc = new Scanner(System.in);
 
         // 1. Ingreso de la cantidad de notas
-        System.out.print("Ingrese la cantidad de notas: ");
-        int n = sc.nextInt();
+        // Se exige n > 0: con 0 el vector queda vacío y notas[0] lanza ArrayIndexOutOfBoundsException
+        int n;
+        do {
+            System.out.print("Ingrese la cantidad de notas (mayor a 0): ");
+            n = sc.nextInt();
+        } while (n <= 0);
 
         // 2. Definición del vector según el tamaño n
         double[] notas = new double[n];

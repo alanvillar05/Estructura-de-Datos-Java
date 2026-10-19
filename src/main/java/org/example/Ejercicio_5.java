@@ -23,8 +23,11 @@ public class Ejercicio_5 {
             System.out.println("  1. Internet 30 megas ($750)");
             System.out.println("  2. Internet 50 megas ($1100)");
             System.out.println("  3. Internet 100 megas ($1500 con 5% desc.)");
-            System.out.print("Seleccione el servicio (1, 2 o 3): ");
-            tiposServicio[i] = sc.nextInt();
+            // Se vuelve a pedir hasta que la opción sea válida, así nunca queda un monto en 0
+            do {
+                System.out.print("Seleccione el servicio (1, 2 o 3): ");
+                tiposServicio[i] = sc.nextInt();
+            } while (tiposServicio[i] < 1 || tiposServicio[i] > 3);
 
             // 2. Cálculo del monto según el plan contratado
             switch (tiposServicio[i]) {
@@ -37,10 +40,6 @@ public class Ejercicio_5 {
                 case 3:
                     // 5% de descuento sobre $1500: 1500 * 0.95 = 1425.0
                     montosPagar[i] = 1500.0 * 0.95;
-                    break;
-                default:
-                    System.out.println("Opción inválida. Se asignará monto 0.");
-                    montosPagar[i] = 0.0;
                     break;
             }
         }

@@ -34,9 +34,9 @@ public class Ejercicio_Cine extends JFrame {
     private JButton btnMover;
 
     // Colores del plano
-    private final Color COLOR_LIBRE = new Color(46, 204, 113);       // Verde
-    private final Color COLOR_OCUPADO = new Color(231, 76, 60);       // Rojo
-    private final Color COLOR_SELECCIONADO = new Color(241, 196, 15); // Amarillo
+    private static final Color COLOR_LIBRE = new Color(46, 204, 113);       // Verde
+    private static final Color COLOR_OCUPADO = new Color(231, 76, 60);       // Rojo
+    private static final Color COLOR_SELECCIONADO = new Color(241, 196, 15); // Amarillo
 
     // Constructor: coincide exactamente con el nombre de la clase
     public Ejercicio_Cine() {

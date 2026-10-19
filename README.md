@@ -20,7 +20,7 @@ A continuación se detalla cada trabajo, ordenado por trabajo práctico (TP). To
 
 ### 🔹 Ejercicio 1: Vector Dinámico de Notas (`Ejercicio_1.java`)
 * **¿Qué hace?:** Solicita la cantidad $n$ de notas, reserva un vector con ese tamaño exacto, calcula la nota más alta y el promedio general.
-* **Explicación simple:** Es como preparar una lista con la cantidad justa de casilleros para no desperdiciar papel y luego buscar con una regla cuál fue el número más alto.
+* **Explicación simple:** Es como preparar una lista con la cantidad justa de casilleros para no desperdiciar papel y luego buscar con una regla cuál fue el número más alto. Si se ingresa una cantidad de notas menor o igual a 0, la vuelve a pedir.
 
 ### 🔹 Ejercicio 2: Contador de Aprobados y Desaprobados (`Ejercicio_2.java`)
 * **¿Qué hace?:** Carga un vector de notas y clasifica cuántos alumnos aprobaron (nota ≥ 6) y cuántos desaprobaron (nota < 6).
@@ -35,7 +35,7 @@ A continuación se detalla cada trabajo, ordenado por trabajo práctico (TP). To
 * **Explicación simple:** Funciona como la garita de seguridad de una fábrica donde el guardia anota cada camión en una planilla y al final del día cuenta los cargamentos específicos.
 
 ### 🔹 Ejercicio 5: Facturación de Servicios de Internet (`Ejercicio_5.java`)
-* **¿Qué hace?:** Para 5 clientes guarda DNI y plan contratado (1 = 30 megas $750, 2 = 50 megas $1100, 3 = 100 megas $1500 con 5% de descuento) y muestra el monto a pagar de cada uno.
+* **¿Qué hace?:** Para 5 clientes guarda DNI y plan contratado (1 = 30 megas $750, 2 = 50 megas $1100, 3 = 100 megas $1500 con 5% de descuento) y muestra el monto a pagar de cada uno. Si se ingresa un plan inválido, lo vuelve a pedir.
 * **Explicación simple:** Es una calculadora de caja que te cobra según el combo que elegiste y te aplica un cupón de descuento automático solo si elegiste el combo más grande.
 
 ### 🔹 Ejercicio 6: Cronometraje y Búsqueda del Mínimo (`Ejercicio_6.java`)
@@ -43,7 +43,7 @@ A continuación se detalla cada trabajo, ordenado por trabajo práctico (TP). To
 * **Explicación simple:** Es el cronómetro de una pista de carreras: busca el número más pequeño de todos, porque el que tarda menos segundos es el que gana.
 
 ### 🔹 Ejercicio 7: Procesamiento Estadístico de Censo (`Ejercicio_7.java`)
-* **¿Qué hace?:** Usa un bucle con valor centinela (la carga termina al ingresar DNI 0) para calcular el total de censados, la cantidad de varones y de mujeres, el porcentaje de varones de 16 a 65 años sobre el total de varones y los datos de la persona de mayor edad.
+* **¿Qué hace?:** Usa un bucle con valor centinela (la carga termina al ingresar DNI 0) para calcular el total de censados, la cantidad de varones y de mujeres, el porcentaje de varones de 16 a 65 años sobre el total de varones y los datos de la persona de mayor edad. Valida que el sexo sea F o M.
 * **Explicación simple:** Como contar personas una por una en una fila sin saber cuántas van a llegar, guardando en un bloc de notas quién fue el abuelo de mayor edad.
 
 ---
