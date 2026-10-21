@@ -74,8 +74,9 @@ Listas dinámicas con `ArrayList`: crecen solas a medida que se agregan elemento
 * **¿Qué hace?:** Menú por consola que gestiona un `ArrayList<String>` de tareas: agregar al final, insertar en una posición elegida (inicio, medio o final) con `add(índice, tarea)`, eliminar una tarea por su nombre sin importar mayúsculas y mostrar las pendientes en orden de carga u ordenadas alfabéticamente (se ordena una copia para no perder el orden original).
 * **Explicación simple:** Es una lista de pendientes en un anotador: podés escribir al final o meter una tarea entre otras, tachar una por su nombre y pasarla en limpio en orden alfabético.
 
-### 🔹 Ejercicio 3: Análisis de Números
-* *Próximamente.*
+### 🔹 Ejercicio 3: Análisis de Números (`AnalisisNumeros.java`)
+* **¿Qué hace?:** Carga enteros en un `ArrayList<Integer>` hasta que se ingresa un negativo (que no se guarda), muestra el mayor, el menor y el promedio, y arma la lista sin números repetidos manteniendo el orden de carga. Contempla el caso de que no se ingrese ningún número.
+* **Explicación simple:** Es como anotar los puntajes de una partida hasta que alguien dice "basta": después buscás el récord, el peor puntaje, el promedio, y pasás en limpio la lista sin repetir valores.
 
 ---
 
