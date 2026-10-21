@@ -61,6 +61,23 @@ Aplicación visual con interfaz gráfica (**Java Swing**) que gestiona una sala 
 
 ---
 
+## 📋 Práctico Nº3: ArrayList (paquete `org.example.practico3`)
+
+Listas dinámicas con `ArrayList`: crecen solas a medida que se agregan elementos y permiten agregar, recorrer y eliminar.
+
+### 🔹 Ejercicio 1: Gestión de Estudiantes (`Estudiante.java` + `GestionEstudiantes.java`)
+* **¿Qué hace?:** Menú por consola que gestiona un `ArrayList<Estudiante>` (nombre, edad y nota promedio): agregar estudiantes, mostrar los que tienen nota mayor a 7, eliminar los que tienen nota menor a 4 (con `removeIf`) y mostrar la lista final. Valida los datos ingresados y acepta notas con coma o punto.
+* **Por qué dos archivos:** `Estudiante` es la clase que define cada objeto (atributos privados y `final`, constructor, getters y `toString`); `GestionEstudiantes` tiene el `main` y las operaciones sobre la lista.
+* **Explicación simple:** Es la planilla de un preceptor: anota alumnos a medida que llegan, marca a los destacados y tacha a los que no alcanzaron la nota.
+
+### 🔹 Ejercicio 2: Lista de Tareas
+* *Próximamente.*
+
+### 🔹 Ejercicio 3: Análisis de Números
+* *Próximamente.*
+
+---
+
 ## ▶️ Cómo ejecutar
 1. Clonar el repositorio: `git clone https://github.com/alanvillar05/Estructura-de-Datos-Java.git`
 2. Abrirlo en IntelliJ IDEA como proyecto Maven (Java 17 o superior).
