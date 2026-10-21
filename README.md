@@ -70,8 +70,9 @@ Listas dinámicas con `ArrayList`: crecen solas a medida que se agregan elemento
 * **Por qué dos archivos:** `Estudiante` es la clase que define cada objeto (atributos privados y `final`, constructor, getters y `toString`); `GestionEstudiantes` tiene el `main` y las operaciones sobre la lista.
 * **Explicación simple:** Es la planilla de un preceptor: anota alumnos a medida que llegan, marca a los destacados y tacha a los que no alcanzaron la nota.
 
-### 🔹 Ejercicio 2: Lista de Tareas
-* *Próximamente.*
+### 🔹 Ejercicio 2: Lista de Tareas (`ListaTareas.java`)
+* **¿Qué hace?:** Menú por consola que gestiona un `ArrayList<String>` de tareas: agregar al final, insertar en una posición elegida (inicio, medio o final) con `add(índice, tarea)`, eliminar una tarea por su nombre sin importar mayúsculas y mostrar las pendientes en orden de carga u ordenadas alfabéticamente (se ordena una copia para no perder el orden original).
+* **Explicación simple:** Es una lista de pendientes en un anotador: podés escribir al final o meter una tarea entre otras, tachar una por su nombre y pasarla en limpio en orden alfabético.
 
 ### 🔹 Ejercicio 3: Análisis de Números
 * *Próximamente.*
