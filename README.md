@@ -80,6 +80,18 @@ Listas dinámicas con `ArrayList`: crecen solas a medida que se agregan elemento
 
 ---
 
+## 📇 TP Nº4: Agenda de Contactos (paquete `org.example.tp4`)
+
+Aplicación de escritorio con interfaz gráfica (**Java Swing**) de estilo minimalista (blanco, grises y negro) para gestionar contactos.
+
+* **`Contacto.java`:** cada registro es un objeto con nombre, apellido, teléfono y email. Sabe convertirse en una línea de texto (`Nombre;Apellido;Teléfono;Email`) y volver a armarse desde ella.
+* **`Agenda.java`:** guarda los contactos en una lista dinámica (`ArrayList<Contacto>`) ordenada por apellido, y los lee y escribe en un archivo `.txt` con try-with-resources.
+* **`AgendaApp.java`:** la ventana (tiene el `main`). Formulario para agregar, tabla con los contactos, buscador que filtra mientras se escribe (por nombre, apellido, teléfono o email), eliminar el contacto seleccionado y "Guardar en .txt" con la ventana de *Guardar como* para elegir carpeta y nombre.
+* **Ejecutable portable:** `ejecutables/Agenda.jar` se abre con doble clic en cualquier computadora con Java 17 o superior. Al abrirse carga el `agenda.txt` que esté en su misma carpeta.
+* **Explicación simple:** Es la libreta de teléfonos de toda la vida, pero con buscador, y que además podés pasar en limpio a un archivo de texto cuando quieras.
+
+---
+
 ## ▶️ Cómo ejecutar
 1. Clonar el repositorio: `git clone https://github.com/alanvillar05/Estructura-de-Datos-Java.git`
 2. Abrirlo en IntelliJ IDEA como proyecto Maven (Java 17 o superior).

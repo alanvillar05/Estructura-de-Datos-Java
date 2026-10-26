@@ -37,3 +37,5 @@ build/
 
 ### Mac OS ###
 .DS_Store
+### Datos generados por la Agenda (TP4) ###
+agenda.txt
